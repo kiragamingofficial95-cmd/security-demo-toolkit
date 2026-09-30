@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #0a0a0a; color: #00ffff; font-family: 'Courier New', monospace; padding: 20px; margin: 0; }
+        .window { background: #111; border: 1px solid #333; border-radius: 8px; padding: 20px; max-width: 900px; margin: 0 auto; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }
+        .card { background: #16213e; border: 1px solid #0f3460; border-radius: 8px; padding: 15px; }
+        .card h3 { margin: 0 0 10px 0; font-size: 1em; }
+        .card p { color: #aaa; font-size: 0.85em; margin: 5px 0; }
+        .status { color: #00ff88; }
+        .banner { color: #00ffff; font-weight: bold; white-space: pre; margin-bottom: 10px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="banner">
+ ███████╗███████╗ ██████╗██╗   ██╗██████╗ ██╗████████╗██╗   ██╗
+ ██╔════╝██╔════╝██╔════╝██║   ██║██╔══██╗██║╚══██╔══╝╚██╗ ██╔╝
+ ███████╗█████╗  ██║     ██║   ██║██████╔╝██║   ██║    ╚████╔╝
+ ╚════██║██╔══╝  ██║     ██║   ██║██╔══██╗██║   ██║     ╚██╔╝
+ ███████║███████╗╚██████╗╚██████╔╝██║  ██║██║   ██║      ██║
+ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝</div>
+        <h2 style="color: #00ffff; text-align: center;">Security Demo Toolkit v2.0 - All Managers</h2>
+        <div class="grid">
+            <div class="card"><h3 style="color: #00ff88;">1. CSRF</h3><p>Cross-Site Request Forgery</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff4444;">2. XSS</h3><p>Cross-Site Scripting</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff8800;">3. Session Hijacking</h3><p>Session Token Theft</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #4a9eff;">4. SQL Injection</h3><p>Database Injection</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ffd700;">5. Clickjacking</h3><p>UI Redressing</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff6b6b;">6. SSRF</h3><p>Server-Side Request Forgery</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff6b9d;">7. MITM</h3><p>Man-in-the-Middle</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #4eff88;">8. Directory Traversal</h3><p>Path Traversal</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff4444;">9. XXE</h3><p>XML External Entity</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #4a9eff;">10. Deserialization</h3><p>Insecure Deserialization</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ffd700;">11. Broken Auth</h3><p>Broken Authentication</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #ff6b6b;">12. Misconfig</h3><p>Security Misconfiguration</p><p class="status">✅ Ready</p></div>
+            <div class="card"><h3 style="color: #4eff88;">13. API Abuse</h3><p>API Abuse</p><p class="status">✅ Ready</p></div>
+        </div>
+    </div>
+</body>
+</html>
