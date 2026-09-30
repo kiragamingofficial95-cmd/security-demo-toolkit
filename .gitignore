@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+ngrok/
+cloudflared.exe
+crf-config.json
+xss-config.json
+session-config.json

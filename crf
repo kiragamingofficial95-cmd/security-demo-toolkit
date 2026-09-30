@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+/**
+ * CSRF Educational Demo Manager
+ * Run with: ./crf  or  node crf
+ */
+
+require('./manager.js');

@@ -1,0 +1,16 @@
+{
+  "name": "csrf-educational-demo",
+  "version": "1.0.0",
+  "description": "Educational CSRF demonstration for localhost - Learn how Cross-Site Request Forgery works",
+  "scripts": {
+    "start": "node index.js",
+    "target": "node server.js",
+    "malicious": "node malicious-server.js",
+    "crf": "node manager.js",
+    "manager": "node manager.js",
+    "xss": "node xss-manager.js",
+    "xss-manager": "node xss-manager.js"
+  },
+  "keywords": ["csrf", "security", "education", "demo"],
+  "license": "MIT"
+}
