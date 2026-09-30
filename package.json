@@ -9,7 +9,9 @@
     "crf": "node manager.js",
     "manager": "node manager.js",
     "xss": "node xss-manager.js",
-    "xss-manager": "node xss-manager.js"
+    "xss-manager": "node xss-manager.js",
+    "session": "node session-manager.js",
+    "session-manager": "node session-manager.js"
   },
   "keywords": ["csrf", "security", "education", "demo"],
   "license": "MIT"

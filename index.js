@@ -56,8 +56,9 @@ function printMenu() {
     console.log(`  ${C.cyan}│${C.reset}                                                         ${C.cyan}│${C.reset}`);
     console.log(`  ${C.cyan}│${C.reset}  ${C.green}[1]${C.reset} 🛡️  CSRF Demo (Cross-Site Request Forgery)          ${C.cyan}│${C.reset}`);
     console.log(`  ${C.cyan}│${C.reset}  ${C.green}[2]${C.reset} 💉 XSS Demo (Cross-Site Scripting)                  ${C.cyan}│${C.reset}`);
-    console.log(`  ${C.cyan}│${C.reset}  ${C.green}[3]${C.reset} 📖 Learn About Web Security                         ${C.cyan}│${C.reset}`);
-    console.log(`  ${C.cyan}│${C.reset}  ${C.red}[4]${C.reset} ❌ Exit                                             ${C.cyan}│${C.reset}`);
+    console.log(`  ${C.cyan}│${C.reset}  ${C.green}[3]${C.reset} 🔐 Session Hijacking Demo                          ${C.cyan}│${C.reset}`);
+    console.log(`  ${C.cyan}│${C.reset}  ${C.green}[4]${C.reset} 📖 Learn About Web Security                         ${C.cyan}│${C.reset}`);
+    console.log(`  ${C.cyan}│${C.reset}  ${C.red}[5]${C.reset} ❌ Exit                                             ${C.cyan}│${C.reset}`);
     console.log(`  ${C.cyan}│${C.reset}                                                         ${C.cyan}│${C.reset}`);
     console.log(`  ${C.cyan}└─────────────────────────────────────────────────────────┘${C.reset}`);
     console.log('');
@@ -127,9 +128,12 @@ async function mainMenu() {
                 runDemo('xss-manager.js');
                 return;
             case '3':
-                showSecurityInfo();
+                runDemo('session-manager.js');
                 return;
             case '4':
+                showSecurityInfo();
+                return;
+            case '5':
                 console.log(`\n  ${C.red}  ⚠️  Stay ethical, stay legal!${C.reset}\n`);
                 rl.close();
                 process.exit(0);
