@@ -1,7 +1,7 @@
 {
-  "name": "csrf-educational-demo",
-  "version": "1.0.0",
-  "description": "Educational CSRF demonstration for localhost - Learn how Cross-Site Request Forgery works",
+  "name": "security-demo-toolkit",
+  "version": "2.0.0",
+  "description": "Educational web security demonstration tools for learning about common vulnerabilities and their defenses",
   "scripts": {
     "start": "node index.js",
     "target": "node server.js",
@@ -11,8 +11,28 @@
     "xss": "node xss-manager.js",
     "xss-manager": "node xss-manager.js",
     "session": "node session-manager.js",
-    "session-manager": "node session-manager.js"
+    "session-manager": "node session-manager.js",
+    "sqli": "node sqli-manager.js",
+    "sqli-manager": "node sqli-manager.js",
+    "clickjacking": "node clickjacking-manager.js",
+    "clickjacking-manager": "node clickjacking-manager.js",
+    "ssrf": "node ssrf-manager.js",
+    "ssrf-manager": "node ssrf-manager.js",
+    "mitm": "node mitm-manager.js",
+    "mitm-manager": "node mitm-manager.js",
+    "traversal": "node traversal-manager.js",
+    "traversal-manager": "node traversal-manager.js",
+    "xxe": "node xxe-manager.js",
+    "xxe-manager": "node xxe-manager.js",
+    "deserialization": "node deserialization-manager.js",
+    "deserialization-manager": "node deserialization-manager.js",
+    "auth": "node auth-manager.js",
+    "auth-manager": "node auth-manager.js",
+    "misconfig": "node misconfig-manager.js",
+    "misconfig-manager": "node misconfig-manager.js",
+    "api": "node api-manager.js",
+    "api-manager": "node api-manager.js"
   },
-  "keywords": ["csrf", "security", "education", "demo"],
+  "keywords": ["security", "education", "demo", "csrf", "xss", "sqli", "clickjacking", "ssrf", "mitm", "xxe", "deserialization", "authentication", "misconfiguration", "api-abuse"],
   "license": "MIT"
 }

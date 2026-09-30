@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #0a0a0a; color: #00ff00; font-family: 'Courier New', monospace; padding: 20px; margin: 0; }
+        .window { background: #111; border: 1px solid #333; border-radius: 8px; padding: 20px; max-width: 800px; margin: 0 auto; }
+        .title { color: #00ff88; font-size: 1.2em; margin-bottom: 10px; }
+        .subtitle { color: #888; font-size: 0.9em; margin-bottom: 20px; }
+        .section { border: 1px solid #333; border-radius: 4px; padding: 15px; margin: 10px 0; }
+        .section-title { color: #00ff88; font-weight: bold; margin-bottom: 10px; }
+        .row { display: flex; justify-content: space-between; padding: 5px 0; }
+        .label { color: #888; }
+        .value { color: #fff; }
+        .status-active { color: #00ff88; }
+        .status-inactive { color: #ff4444; }
+        .menu-item { padding: 5px 0; }
+        .menu-key { color: #00ff88; }
+        .banner { color: #00ff88; font-weight: bold; white-space: pre; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="banner">
+ ██████╗███████╗██████╗ ███████╗
+ ██╔════╝██╔════╝██╔══██╗██╔════╝
+ ██║     ███████╗██████╔╝█████╗
+ ██║     ╚════██║██╔══██╗██╔══╝
+ ╚██████╗███████║██║  ██║██║
+  ╚═════╝╚══════╝╚═╝  ╚═╝╚═╝</div>
+        <div class="title">CSRF // Cross-Site Request Forgery Demo Manager v5.0</div>
+        <div class="subtitle">════════════════════════════════════════════════════════════</div>
+        
+        <div class="section">
+            <div class="section-title">TARGET CONFIG</div>
+            <div class="row"><span class="label">▸ Target URL:</span> <span class="value">https://www.skool.com</span></div>
+            <div class="row"><span class="label">▸ Target Name:</span> <span class="value">Skool</span></div>
+            <div class="row"><span class="label">▸ Malicious Port:</span> <span class="value">3001</span></div>
+            <div class="row"><span class="label">▸ Tunnel:</span> <span class="value">cloudflared</span></div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">ATTACK MODULES</div>
+            <div class="row"><span class="label">[1]</span> <span class="value">Update Profile Bio</span> <span class="status-active">● ACTIVE [JS]</span></div>
+            <div class="row"><span class="label">[2]</span> <span class="value">+ Add Custom Attack</span></div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">MAIN MENU</div>
+            <div class="menu-item"><span class="menu-key">[1]</span> 🚀 One-Click Deploy (Server + Tunnel)</div>
+            <div class="menu-item"><span class="menu-key">[2]</span> 🎯 Configure Target URL</div>
+            <div class="menu-item"><span class="menu-key">[3]</span> ⚙️  Manage Attacks (Add/Edit/Remove)</div>
+            <div class="menu-item"><span class="menu-key">[4]</span> 🌐 Domain / Tunnel Setup</div>
+            <div class="menu-item"><span class="menu-key">[5]</span> 📋 View Current Config</div>
+            <div class="menu-item"><span class="menu-key">[6]</span> 💾 Save Config</div>
+            <div class="menu-item"><span class="menu-key">[7]</span> 📖 CSRF Theory (Educational)</div>
+            <div class="menu-item"><span class="menu-key">[8]</span> 🛡️  Defense Mechanisms</div>
+            <div class="menu-item"><span class="menu-key">[9]</span> ❌ Terminate Session</div>
+        </div>
+    </div>
+</body>
+</html>
